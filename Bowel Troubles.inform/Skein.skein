@@ -1,47 +1,190 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x18ee2d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18ab5b0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18ee2d0" />
-  <item nodeId="node-0x18ee2d0">
+  <activeNode nodeId="node-0x18ab5b0" />
+  <item nodeId="node-0x18ab5b0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
 
 
-Did anyone else hear that? I was just trying to do a downward dog… Why did my body have to betray me like that?  I hope no one smells that…  My stomach really hurts.  I should use the restroom.
+Did she hear that? I was just trying to do a downward dog… Why did my body have to betray me like that?  I hope she doesn&apos;t smell that…  My stomach really hurts.  I should use the restroom.
 
 Bowel Troubles
 An Interactive Fiction by Kyler Matsuura
-Release 1 / Serial number 140219 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140221 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Yoga Studio
-You can see everyone else in a downward dog position on his or her yoga mat. The Instructor is at the front of the room.
+You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
 
 You can see a Restroom Door and Yoga Instructor here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="12">NO</temporary>
+    <temporary score="23">NO</temporary>
     <children>
-      <child nodeId="node-0xee3e820" />
-      <child nodeId="node-0x1822c30" />
-      <child nodeId="node-0x7bb2170" />
-      <child nodeId="node-0xbc34c70" />
-      <child nodeId="node-0x1b35c30" />
-      <child nodeId="node-0xba2b7f0" />
+      <child nodeId="node-0xb2637e0" />
+      <child nodeId="node-0xba26470" />
+      <child nodeId="node-0xba17280" />
+      <child nodeId="node-0x18bbfa0" />
+      <child nodeId="node-0xb817690" />
+      <child nodeId="node-0x18bbff0" />
+      <child nodeId="node-0x18ab600" />
+      <child nodeId="node-0x18ab7a0" />
+      <child nodeId="node-0x7264250" />
+      <child nodeId="node-0x18ab6c0" />
+      <child nodeId="node-0x1b12240" />
+      <child nodeId="node-0x18ab470" />
+      <child nodeId="node-0xaf477e0" />
     </children>
   </item>
-  <item nodeId="node-0xba2b7f0">
-    <command xml:space="preserve">talk to instructor</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
+  <item nodeId="node-0xaf477e0">
+    <command xml:space="preserve">talk to yoga instructor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="9">YES</temporary>
+    <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0x1b35c30">
+  <item nodeId="node-0x18ab470">
+    <command xml:space="preserve">talk to instructor</command>
+    <result xml:space="preserve">You need to use the restroom?  It&apos;s to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b71a30" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b71a30">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">(first opening the Restroom Door)
+&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me laxatives,&quot; says the mysterious voice on the other side of the door
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b12240">
+    <command xml:space="preserve">x yoga mat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xb8037f0" />
+      <child nodeId="node-0x1b20130" />
+      <child nodeId="node-0x1b012e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b012e0">
+    <command xml:space="preserve">x yogamat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x725f300" />
+    </children>
+  </item>
+  <item nodeId="node-0x725f300">
+    <command xml:space="preserve">x Yoga Mat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0x1b20130">
+    <command xml:space="preserve">x yoga mats</command>
+    <result xml:space="preserve">You see nothing special about Yoga Mats.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="22">YES</temporary>
+    <children>
+      <child nodeId="node-0xb25e980" />
+    </children>
+  </item>
+  <item nodeId="node-0xb25e980">
+    <command xml:space="preserve">talk to instructor</command>
+    <result xml:space="preserve">You need to use the restroom?  It&apos;s to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="21">YES</temporary>
+  </item>
+  <item nodeId="node-0xb8037f0">
+    <command xml:space="preserve">take yoga mat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="15">YES</temporary>
+  </item>
+  <item nodeId="node-0x18ab6c0">
+    <command xml:space="preserve">x restroom door</command>
+    <result xml:space="preserve">It seems to be jammed shut.  On the other side is the restroom.  Someone seems to be inside of it.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="5">YES</temporary>
+    <children>
+      <child nodeId="node-0x18ab730" />
+    </children>
+  </item>
+  <item nodeId="node-0x18ab730">
+    <command xml:space="preserve">open restroom door</command>
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me laxatives,&quot; says the mysterious voice on the other side of the door
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="4">YES</temporary>
+  </item>
+  <item nodeId="node-0x7264250">
+    <command xml:space="preserve">x yoga mats</command>
+    <result xml:space="preserve">A stack of dirty yoga mats.  It seems that they were recently used.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+  </item>
+  <item nodeId="node-0x18ab7a0">
+    <command xml:space="preserve">x gun</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="7">YES</temporary>
+    <children>
+      <child nodeId="node-0x18ab890" />
+    </children>
+  </item>
+  <item nodeId="node-0x18ab890">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x18ab600">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the Restroom Door)
 It seems to be locked.
@@ -51,10 +194,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x7bafab0" />
+      <child nodeId="node-0x18ab650" />
     </children>
   </item>
-  <item nodeId="node-0x7bafab0">
+  <item nodeId="node-0x18ab650">
     <command xml:space="preserve">open restroom door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -63,48 +206,39 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0xbc34c70">
-    <command xml:space="preserve">x restroom door</command>
-    <result xml:space="preserve">It seems to be jammed shut.  On the other side is the restroom.  Someone seems to be inside of it.
+  <item nodeId="node-0x18bbff0">
+    <command xml:space="preserve">x instructor</command>
+    <result xml:space="preserve">A 60 year old women who has bigger muscles than you do.  Close up, you can smell the scent of fresh vegetables.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="5">YES</temporary>
+    <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x7bb79c0" />
+      <child nodeId="node-0x18bc060" />
     </children>
   </item>
-  <item nodeId="node-0x7bb79c0">
-    <command xml:space="preserve">open restroom door</command>
-    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me laxatives,&quot; says the mysterious voice on the other side of the door
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="4">YES</temporary>
-  </item>
-  <item nodeId="node-0x7bb2170">
-    <command xml:space="preserve">x gun</command>
+  <item nodeId="node-0x18bc060">
+    <command xml:space="preserve">x everyone else</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="7">YES</temporary>
-    <children>
-      <child nodeId="node-0xbc1d520" />
-    </children>
+    <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0xbc1d520">
-    <command xml:space="preserve"></command>
-    <result xml:space="preserve">I beg your pardon?
+  <item nodeId="node-0xb817690">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs and to the nort is the Yoga Studio.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <temporary score="22">YES</temporary>
   </item>
-  <item nodeId="node-0x1822c30">
+  <item nodeId="node-0x18bbfa0">
     <command xml:space="preserve">attack instructor</command>
     <result xml:space="preserve">You hit her with full force, but it barely fazes her.  She puts you in headlock until the cops show up.  You have been arrested.
 
@@ -122,21 +256,61 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0xee3e820">
-    <command xml:space="preserve">x instructor</command>
-    <result xml:space="preserve">A 60 year old women who has bigger muscles than you do.  Close up, you can smell the scent of fresh vegetables.
+  <item nodeId="node-0xba17280">
+    <command xml:space="preserve">talk to mysteroius voice</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="9">YES</temporary>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0xba26470">
+    <command xml:space="preserve">x mat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0xff92960" />
+      <child nodeId="node-0xaf772a0" />
+      <child nodeId="node-0x722d990" />
     </children>
   </item>
-  <item nodeId="node-0xff92960">
-    <command xml:space="preserve">x everyone else</command>
+  <item nodeId="node-0x722d990">
+    <command xml:space="preserve">x yoga mat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="14">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b98050" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b98050">
+    <command xml:space="preserve">x yoga mats</command>
+    <result xml:space="preserve">A stack of dirty yoga mats.  It seems that they were recently used.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="13">YES</temporary>
+  </item>
+  <item nodeId="node-0xaf772a0">
+    <command xml:space="preserve">x Mat</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="10">YES</temporary>
+  </item>
+  <item nodeId="node-0xb2637e0">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
 
 &gt;</result>
     <played>YES</played>
