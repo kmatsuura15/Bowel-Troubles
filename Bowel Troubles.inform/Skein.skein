@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
-<Skein rootNode="node-0x18c3ec0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
+<Skein rootNode="node-0x18aa9d0" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0x18c3ec0" />
-  <item nodeId="node-0x18c3ec0">
+  <activeNode nodeId="node-0x6c1e770" />
+  <item nodeId="node-0x18aa9d0">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
 
@@ -12,7 +12,7 @@ Did she hear that? I was just trying to do a downward dog… Why did my body hav
 
 Bowel Troubles
 An Interactive Fiction by Kyler Matsuura
-Release 1 / Serial number 140225 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
+Release 1 / Serial number 140303 / Inform 7 build 6G60 (I6/v6.32 lib 6/12N) SD
 
 Yoga Studio
 You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
@@ -22,24 +22,28 @@ You can see a Restroom Door and Yoga Instructor here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="44">NO</temporary>
+    <temporary score="63">NO</temporary>
     <children>
-      <child nodeId="node-0x18e0730" />
-      <child nodeId="node-0x18e0570" />
-      <child nodeId="node-0x18e0020" />
-      <child nodeId="node-0x18e0380" />
-      <child nodeId="node-0x18e0070" />
-      <child nodeId="node-0x18e02a0" />
-      <child nodeId="node-0x18e01c0" />
-      <child nodeId="node-0x18dfe10" />
-      <child nodeId="node-0x18e00e0" />
-      <child nodeId="node-0x18dff60" />
-      <child nodeId="node-0x18dfd00" />
-      <child nodeId="node-0x18c4040" />
-      <child nodeId="node-0x18c3ff0" />
+      <child nodeId="node-0x18ef640" />
+      <child nodeId="node-0x18ef480" />
+      <child nodeId="node-0x18eec90" />
+      <child nodeId="node-0x18ee0b0" />
+      <child nodeId="node-0x18ee410" />
+      <child nodeId="node-0x1ba5630" />
+      <child nodeId="node-0x18ee330" />
+      <child nodeId="node-0x18ee250" />
+      <child nodeId="node-0x18001f0" />
+      <child nodeId="node-0x18ede60" />
+      <child nodeId="node-0x18ee170" />
+      <child nodeId="node-0x18edfd0" />
+      <child nodeId="node-0x18649c0" />
+      <child nodeId="node-0xbcebbf0" />
+      <child nodeId="node-0x18aaa20" />
+      <child nodeId="node-0x18aaf10" />
+      <child nodeId="node-0x18aaec0" />
     </children>
   </item>
-  <item nodeId="node-0x18c3ff0">
+  <item nodeId="node-0x18aaec0">
     <command xml:space="preserve">talk to yoga instructor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -48,7 +52,7 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0x18c4040">
+  <item nodeId="node-0x18aaf10">
     <command xml:space="preserve">talk to instructor</command>
     <result xml:space="preserve">You need to use the restroom?  It&apos;s to the east.
 
@@ -57,10 +61,10 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
     <children>
-      <child nodeId="node-0x18c4090" />
+      <child nodeId="node-0x18aaf60" />
     </children>
   </item>
-  <item nodeId="node-0x18c4090">
+  <item nodeId="node-0x18aaf60">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the Restroom Door)
 &quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me laxatives,&quot; says the mysterious voice on the other side of the door
@@ -69,7 +73,7 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
   </item>
-  <item nodeId="node-0x18dfd00">
+  <item nodeId="node-0x18aaa20">
     <command xml:space="preserve">x yoga mat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -78,12 +82,12 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>NO</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0x18dff10" />
-      <child nodeId="node-0x18dfe70" />
-      <child nodeId="node-0x18dfd50" />
+      <child nodeId="node-0x18edf60" />
+      <child nodeId="node-0x18edec0" />
+      <child nodeId="node-0x18aaa70" />
     </children>
   </item>
-  <item nodeId="node-0x18dfd50">
+  <item nodeId="node-0x18aaa70">
     <command xml:space="preserve">x yogamat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -92,10 +96,10 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="19">YES</temporary>
     <children>
-      <child nodeId="node-0x18dfda0" />
+      <child nodeId="node-0x18aaac0" />
     </children>
   </item>
-  <item nodeId="node-0x18dfda0">
+  <item nodeId="node-0x18aaac0">
     <command xml:space="preserve">x Yoga Mat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -104,7 +108,7 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="18">YES</temporary>
   </item>
-  <item nodeId="node-0x18dfe70">
+  <item nodeId="node-0x18edec0">
     <command xml:space="preserve">x yoga mats</command>
     <result xml:space="preserve">You see nothing special about Yoga Mats.
 
@@ -113,10 +117,10 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="22">YES</temporary>
     <children>
-      <child nodeId="node-0x18dfec0" />
+      <child nodeId="node-0x18edf10" />
     </children>
   </item>
-  <item nodeId="node-0x18dfec0">
+  <item nodeId="node-0x18edf10">
     <command xml:space="preserve">talk to instructor</command>
     <result xml:space="preserve">You need to use the restroom?  It&apos;s to the east.
 
@@ -125,7 +129,7 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="21">YES</temporary>
   </item>
-  <item nodeId="node-0x18dff10">
+  <item nodeId="node-0x18edf60">
     <command xml:space="preserve">take yoga mat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -134,7 +138,228 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="15">YES</temporary>
   </item>
-  <item nodeId="node-0x18dff60">
+  <item nodeId="node-0xbcebbf0">
+    <command xml:space="preserve">souths</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cb37d0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cb37d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x6c00140" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c00140">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Longs
+It&apos;s just like every other Longs store. The Laxatives can be found on the Medicine shelve.
+
+You can see Medecine here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b57ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b57ab0">
+    <command xml:space="preserve">take medecine</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xbcd7760" />
+    </children>
+  </item>
+  <item nodeId="node-0xbcd7760">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd96010" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd96010">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Yoga Studio
+You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
+
+You can see a Restroom Door and Yoga Instructor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xbcd9e50" />
+    </children>
+  </item>
+  <item nodeId="node-0xbcd9e50">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,&quot; says the mysterious voice on the other side of the door. Oh… You already have the medecine?  Thanks Bud, now just slip it under the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xa189400" />
+    </children>
+  </item>
+  <item nodeId="node-0xa189400">
+    <command xml:space="preserve">slip under door</command>
+    <result xml:space="preserve">Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you&apos;ll need to find a way to open this door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="57">YES</temporary>
+    <children>
+      <child nodeId="node-0xa196d50" />
+    </children>
+  </item>
+  <item nodeId="node-0xa196d50">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying nothing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="56">YES</temporary>
+  </item>
+  <item nodeId="node-0x18649c0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,&quot; says the mysterious voice on the other side of the door. 
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b3f540" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b3f540">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0xba46150" />
+    </children>
+  </item>
+  <item nodeId="node-0xba46150">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Longs
+It&apos;s just like every other Longs store. The Laxatives can be found on the Medicine shelve.
+
+You can see Medecine here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd37cc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd37cc0">
+    <command xml:space="preserve">take medecine</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b4e090" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b4e090">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0xbcc2fc0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbcc2fc0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Yoga Studio
+You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
+
+You can see a Restroom Door and Yoga Instructor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd7cb20" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd7cb20">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,&quot; says the mysterious voice on the other side of the door. Oh… You already have the medecine?  Thanks Bud, now just slip it under the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="27">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b888e0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b888e0">
+    <command xml:space="preserve">slip medecine under door</command>
+    <result xml:space="preserve">I didn&apos;t understand that sentence.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="26">YES</temporary>
+  </item>
+  <item nodeId="node-0x18edfd0">
     <command xml:space="preserve">x restroom door</command>
     <result xml:space="preserve">It seems to be jammed shut.  On the other side is the restroom.  Someone seems to be inside of it.
 
@@ -143,10 +368,10 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="5">YES</temporary>
     <children>
-      <child nodeId="node-0x18dffb0" />
+      <child nodeId="node-0x18ee040" />
     </children>
   </item>
-  <item nodeId="node-0x18dffb0">
+  <item nodeId="node-0x18ee040">
     <command xml:space="preserve">open restroom door</command>
     <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me laxatives,&quot; says the mysterious voice on the other side of the door
 &gt;</result>
@@ -154,7 +379,7 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="4">YES</temporary>
   </item>
-  <item nodeId="node-0x18e00e0">
+  <item nodeId="node-0x18ee170">
     <command xml:space="preserve">x yoga mats</command>
     <result xml:space="preserve">A stack of dirty yoga mats.  It seems that they were recently used.
 
@@ -163,7 +388,7 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
   </item>
-  <item nodeId="node-0x18dfe10">
+  <item nodeId="node-0x18ede60">
     <command xml:space="preserve">x gun</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -172,10 +397,10 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="7">YES</temporary>
     <children>
-      <child nodeId="node-0x18e0150" />
+      <child nodeId="node-0x18ee1e0" />
     </children>
   </item>
-  <item nodeId="node-0x18e0150">
+  <item nodeId="node-0x18ee1e0">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 
@@ -184,7 +409,118 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="6">YES</temporary>
   </item>
-  <item nodeId="node-0x18e01c0">
+  <item nodeId="node-0x18001f0">
+    <command xml:space="preserve">outh</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0xf2067d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xf2067d0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd2b700" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd2b700">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Longs
+It&apos;s just like every other Longs store. The Laxatives can be found on the Medicine shelve.
+
+You can see Medecine here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bbc990" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bbc990">
+    <command xml:space="preserve">take medecine</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0xf203000" />
+    </children>
+  </item>
+  <item nodeId="node-0xf203000">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0xa13d4b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa13d4b0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Yoga Studio
+You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
+
+You can see a Restroom Door and Yoga Instructor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cf13f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cf13f0">
+    <command xml:space="preserve">slip medecine under door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0xbce7d80" />
+    </children>
+  </item>
+  <item nodeId="node-0xbce7d80">
+    <command xml:space="preserve">slip medecine under restroom door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="48">YES</temporary>
+    <children>
+      <child nodeId="node-0xbcc6820" />
+    </children>
+  </item>
+  <item nodeId="node-0xbcc6820">
+    <command xml:space="preserve">slip medecine under restroom door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="47">YES</temporary>
+  </item>
+  <item nodeId="node-0x18ee250">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the Restroom Door)
 It seems to be locked.
@@ -194,10 +530,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="3">YES</temporary>
     <children>
-      <child nodeId="node-0x18e0230" />
+      <child nodeId="node-0x18ee2c0" />
     </children>
   </item>
-  <item nodeId="node-0x18e0230">
+  <item nodeId="node-0x18ee2c0">
     <command xml:space="preserve">open restroom door</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -206,7 +542,7 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="2">YES</temporary>
   </item>
-  <item nodeId="node-0x18e02a0">
+  <item nodeId="node-0x18ee330">
     <command xml:space="preserve">x instructor</command>
     <result xml:space="preserve">A 60 year old women who has bigger muscles than you do.  Close up, you can smell the scent of fresh vegetables.
 
@@ -215,10 +551,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="9">YES</temporary>
     <children>
-      <child nodeId="node-0x18e0310" />
+      <child nodeId="node-0x18ee3a0" />
     </children>
   </item>
-  <item nodeId="node-0x18e0310">
+  <item nodeId="node-0x18ee3a0">
     <command xml:space="preserve">x everyone else</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -227,16 +563,18 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="8">YES</temporary>
   </item>
-  <item nodeId="node-0x18e0070">
-    <command xml:space="preserve">talk to mysteroius voice</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
+  <item nodeId="node-0x1ba5630">
+    <command xml:space="preserve">open restroom door</command>
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,&quot; says the mysterious voice on the other side of the door. 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="6">YES</temporary>
+    <temporary score="12">YES</temporary>
+    <children>
+      <child nodeId="node-0xbcc18a0" />
+    </children>
   </item>
-  <item nodeId="node-0x18e0380">
+  <item nodeId="node-0xbcc18a0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Strip 1
@@ -245,12 +583,115 @@ This is the first half of the strip.  To the south is Longs, to the north is the
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="44">YES</temporary>
+    <temporary score="12">YES</temporary>
     <children>
-      <child nodeId="node-0x6fb8af0" />
+      <child nodeId="node-0x1b961e0" />
     </children>
   </item>
-  <item nodeId="node-0x6fb8af0">
+  <item nodeId="node-0x1b961e0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Longs
+It&apos;s just like every other Longs store. The Laxatives can be found on the Medicine shelve.
+
+You can see Medecine here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="11">YES</temporary>
+    <children>
+      <child nodeId="node-0xb101410" />
+    </children>
+  </item>
+  <item nodeId="node-0xb101410">
+    <command xml:space="preserve">take medecine</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0xa142550" />
+    </children>
+  </item>
+  <item nodeId="node-0xa142550">
+    <command xml:space="preserve">x medecine</command>
+    <result xml:space="preserve">Laxatives
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0xa105ab0" />
+    </children>
+  </item>
+  <item nodeId="node-0xa105ab0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd20130" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd20130">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Yoga Studio
+You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
+
+You can see a Restroom Door and Yoga Instructor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="9">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b9a360" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b9a360">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,&quot; says the mysterious voice on the other side of the doorThanks Bud, now just slip it under the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="8">YES</temporary>
+  </item>
+  <item nodeId="node-0x18ee410">
+    <command xml:space="preserve">talk to mysteroius voice</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="6">YES</temporary>
+  </item>
+  <item nodeId="node-0x18ee0b0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd36220" />
+      <child nodeId="node-0x18ee100" />
+    </children>
+  </item>
+  <item nodeId="node-0x18ee100">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Strip 2
@@ -261,10 +702,10 @@ This is the second half of the strip.  To the North is the Happy Shooting.  To t
     <changed>NO</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xfaae1b0" />
+      <child nodeId="node-0x18ee600" />
     </children>
   </item>
-  <item nodeId="node-0xfaae1b0">
+  <item nodeId="node-0x18ee600">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Cafe
@@ -277,11 +718,11 @@ You can see Silver Key here.
     <changed>NO</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x6feb690" />
-      <child nodeId="node-0xe1bbf20" />
+      <child nodeId="node-0x18ef090" />
+      <child nodeId="node-0x18ee670" />
     </children>
   </item>
-  <item nodeId="node-0xe1bbf20">
+  <item nodeId="node-0x18ee670">
     <command xml:space="preserve">take silver key</command>
     <result xml:space="preserve">Taken.
 
@@ -290,10 +731,10 @@ You can see Silver Key here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa73a60" />
+      <child nodeId="node-0x18ee6e0" />
     </children>
   </item>
-  <item nodeId="node-0xfa73a60">
+  <item nodeId="node-0x18ee6e0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Strip 2
@@ -304,10 +745,10 @@ This is the second half of the strip.  To the North is the Happy Shooting.  To t
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfabead0" />
+      <child nodeId="node-0x18ee750" />
     </children>
   </item>
-  <item nodeId="node-0xfabead0">
+  <item nodeId="node-0x18ee750">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Happy Shooting
@@ -320,10 +761,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa4af70" />
+      <child nodeId="node-0x18ee7c0" />
     </children>
   </item>
-  <item nodeId="node-0xfa4af70">
+  <item nodeId="node-0x18ee7c0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the metal door)
 It seems to be locked.
@@ -333,10 +774,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xe192e30" />
+      <child nodeId="node-0x18ee830" />
     </children>
   </item>
-  <item nodeId="node-0xe192e30">
+  <item nodeId="node-0x18ee830">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the metal door)
 It seems to be locked.
@@ -346,10 +787,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa7e510" />
+      <child nodeId="node-0x18ee8a0" />
     </children>
   </item>
-  <item nodeId="node-0xfa7e510">
+  <item nodeId="node-0x18ee8a0">
     <command xml:space="preserve">unlock metal door with silver key</command>
     <result xml:space="preserve">You unlock the metal door.
 
@@ -358,10 +799,10 @@ It seems to be locked.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb4a20" />
+      <child nodeId="node-0x18ee910" />
     </children>
   </item>
-  <item nodeId="node-0x1bb4a20">
+  <item nodeId="node-0x18ee910">
     <command xml:space="preserve">open</command>
     <result xml:space="preserve">(Silver Key)
 That&apos;s not something you can open.
@@ -371,10 +812,10 @@ That&apos;s not something you can open.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x6fd74d0" />
+      <child nodeId="node-0x18ee980" />
     </children>
   </item>
-  <item nodeId="node-0x6fd74d0">
+  <item nodeId="node-0x18ee980">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the metal door)
 
@@ -388,10 +829,10 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa7f7d0" />
+      <child nodeId="node-0x18ee9f0" />
     </children>
   </item>
-  <item nodeId="node-0xfa7f7d0">
+  <item nodeId="node-0x18ee9f0">
     <command xml:space="preserve">switch on red switch</command>
     <result xml:space="preserve">You switch Red Switch on.
 
@@ -400,10 +841,10 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfab6ed0" />
+      <child nodeId="node-0x18eea60" />
     </children>
   </item>
-  <item nodeId="node-0xfab6ed0">
+  <item nodeId="node-0x18eea60">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Happy Shooting
@@ -416,10 +857,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x6fbde70" />
+      <child nodeId="node-0x18ee480" />
     </children>
   </item>
-  <item nodeId="node-0x6fbde70">
+  <item nodeId="node-0x18ee480">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -428,10 +869,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xe17ae40" />
+      <child nodeId="node-0x18ee4f0" />
     </children>
   </item>
-  <item nodeId="node-0xe17ae40">
+  <item nodeId="node-0x18ee4f0">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Security Room
@@ -444,10 +885,10 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0x6fc2760" />
+      <child nodeId="node-0x18ee560" />
     </children>
   </item>
-  <item nodeId="node-0x6fc2760">
+  <item nodeId="node-0x18ee560">
     <command xml:space="preserve">take case key</command>
     <result xml:space="preserve">Taken.
 
@@ -456,10 +897,10 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xe14d620" />
+      <child nodeId="node-0x18eed10" />
     </children>
   </item>
-  <item nodeId="node-0xe14d620">
+  <item nodeId="node-0x18eed10">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Happy Shooting
@@ -472,10 +913,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xe17cb10" />
+      <child nodeId="node-0x18eed80" />
     </children>
   </item>
-  <item nodeId="node-0xe17cb10">
+  <item nodeId="node-0x18eed80">
     <command xml:space="preserve">open cabinent</command>
     <result xml:space="preserve">It seems to be locked.
 
@@ -484,10 +925,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa61880" />
+      <child nodeId="node-0x18eedf0" />
     </children>
   </item>
-  <item nodeId="node-0xfa61880">
+  <item nodeId="node-0x18eedf0">
     <command xml:space="preserve">unlock cabinent</command>
     <result xml:space="preserve">What do you want to unlock the Cabinent with?
 
@@ -496,10 +937,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa91f60" />
+      <child nodeId="node-0x18eee60" />
     </children>
   </item>
-  <item nodeId="node-0xfa91f60">
+  <item nodeId="node-0x18eee60">
     <command xml:space="preserve">case key</command>
     <result xml:space="preserve">You unlock the Cabinent.
 
@@ -508,10 +949,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfabedb0" />
+      <child nodeId="node-0x18eeed0" />
     </children>
   </item>
-  <item nodeId="node-0xfabedb0">
+  <item nodeId="node-0x18eeed0">
     <command xml:space="preserve">open cabinent</command>
     <result xml:space="preserve">You open the Cabinent, revealing Gun.
 
@@ -520,10 +961,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa80b90" />
+      <child nodeId="node-0x18eef40" />
     </children>
   </item>
-  <item nodeId="node-0xfa80b90">
+  <item nodeId="node-0x18eef40">
     <command xml:space="preserve">take gun</command>
     <result xml:space="preserve">You pick up the Gun and quickly hide it in your pocket.
 
@@ -532,26 +973,26 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa86470" />
+      <child nodeId="node-0x18eefb0" />
     </children>
   </item>
-  <item nodeId="node-0xfa86470">
+  <item nodeId="node-0x18eefb0">
     <command xml:space="preserve">restart</command>
     <result xml:space="preserve">Are you sure you want to restart? </result>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="28">YES</temporary>
     <children>
-      <child nodeId="node-0xfa6e470" />
+      <child nodeId="node-0x18ef020" />
     </children>
   </item>
-  <item nodeId="node-0xfa6e470">
+  <item nodeId="node-0x18ef020">
     <command xml:space="preserve">yes</command>
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="27">YES</temporary>
   </item>
-  <item nodeId="node-0x6feb690">
+  <item nodeId="node-0x18ef090">
     <command xml:space="preserve">take key</command>
     <result xml:space="preserve">Taken.
 
@@ -560,10 +1001,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x1be4260" />
+      <child nodeId="node-0x18ef100" />
     </children>
   </item>
-  <item nodeId="node-0x1be4260">
+  <item nodeId="node-0x18ef100">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">You can&apos;t go that way.
 
@@ -572,10 +1013,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xe19dd60" />
+      <child nodeId="node-0x18ef170" />
     </children>
   </item>
-  <item nodeId="node-0xe19dd60">
+  <item nodeId="node-0x18ef170">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Strip 2
@@ -586,10 +1027,10 @@ This is the second half of the strip.  To the North is the Happy Shooting.  To t
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xfa776b0" />
+      <child nodeId="node-0x18ef1e0" />
     </children>
   </item>
-  <item nodeId="node-0xfa776b0">
+  <item nodeId="node-0x18ef1e0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Happy Shooting
@@ -602,10 +1043,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xfa68470" />
+      <child nodeId="node-0x18ef250" />
     </children>
   </item>
-  <item nodeId="node-0xfa68470">
+  <item nodeId="node-0x18ef250">
     <command xml:space="preserve">unlock metald oor</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -614,10 +1055,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xb0361d0" />
+      <child nodeId="node-0x18ef2c0" />
     </children>
   </item>
-  <item nodeId="node-0xb0361d0">
+  <item nodeId="node-0x18ef2c0">
     <command xml:space="preserve">unlock metal door</command>
     <result xml:space="preserve">(with Silver Key)
 You unlock the metal door.
@@ -627,10 +1068,10 @@ You unlock the metal door.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xfa89f20" />
+      <child nodeId="node-0x18ef330" />
     </children>
   </item>
-  <item nodeId="node-0xfa89f20">
+  <item nodeId="node-0x18ef330">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">(first opening the metal door)
 
@@ -644,10 +1085,10 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xfa7e660" />
+      <child nodeId="node-0x18ef3a0" />
     </children>
   </item>
-  <item nodeId="node-0xfa7e660">
+  <item nodeId="node-0x18ef3a0">
     <command xml:space="preserve">take case key</command>
     <result xml:space="preserve">Taken.
 
@@ -656,10 +1097,10 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0x7a69a30" />
+      <child nodeId="node-0x18ef410" />
     </children>
   </item>
-  <item nodeId="node-0x7a69a30">
+  <item nodeId="node-0x18ef410">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Happy Shooting
@@ -672,10 +1113,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xe17d9f0" />
+      <child nodeId="node-0x18eead0" />
     </children>
   </item>
-  <item nodeId="node-0xe17d9f0">
+  <item nodeId="node-0x18eead0">
     <command xml:space="preserve">unlock cabinent</command>
     <result xml:space="preserve">What do you want to unlock the Cabinent with?
 
@@ -684,10 +1125,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xe1de3d0" />
+      <child nodeId="node-0x18eeb40" />
     </children>
   </item>
-  <item nodeId="node-0xe1de3d0">
+  <item nodeId="node-0x18eeb40">
     <command xml:space="preserve">case key</command>
     <result xml:space="preserve">You unlock the Cabinent.
 
@@ -696,10 +1137,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xe13fda0" />
+      <child nodeId="node-0x18eebb0" />
     </children>
   </item>
-  <item nodeId="node-0xe13fda0">
+  <item nodeId="node-0x18eebb0">
     <command xml:space="preserve">open cabinent</command>
     <result xml:space="preserve">You open the Cabinent, revealing Gun.
 
@@ -708,10 +1149,10 @@ You can see a metal door and a Cabinent (closed) here.
     <changed>YES</changed>
     <temporary score="44">YES</temporary>
     <children>
-      <child nodeId="node-0xfaaf0d0" />
+      <child nodeId="node-0x18eec20" />
     </children>
   </item>
-  <item nodeId="node-0xfaaf0d0">
+  <item nodeId="node-0x18eec20">
     <command xml:space="preserve">take gun</command>
     <result xml:space="preserve">
 
@@ -727,7 +1168,187 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="43">YES</temporary>
   </item>
-  <item nodeId="node-0x18e0020">
+  <item nodeId="node-0xbd36220">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Longs
+It&apos;s just like every other Longs store. The Laxatives can be found on the Medicine shelve.
+
+You can see Medecine here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b3a770" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b3a770">
+    <command xml:space="preserve">take medecine</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0x6cf0090" />
+    </children>
+  </item>
+  <item nodeId="node-0x6cf0090">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Strip 1
+This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0xa1294e0" />
+      <child nodeId="node-0xbc65510" />
+    </children>
+  </item>
+  <item nodeId="node-0xbc65510">
+    <command xml:space="preserve">nort</command>
+    <result xml:space="preserve">That&apos;s not a verb I recognise.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x1884780" />
+    </children>
+  </item>
+  <item nodeId="node-0x1884780">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Yoga Studio
+You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
+
+You can see a Restroom Door and Yoga Instructor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="19">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b77ac0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b77ac0">
+    <command xml:space="preserve">open door</command>
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,&quot; says the mysterious voice on the other side of the door. Thanks Bud, now just slip it under the door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="18">YES</temporary>
+  </item>
+  <item nodeId="node-0xa1294e0">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">
+Yoga Studio
+You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. 
+
+You can see a Restroom Door and Yoga Instructor here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="63">YES</temporary>
+    <children>
+      <child nodeId="node-0xa194100" />
+      <child nodeId="node-0x6c1e770" />
+    </children>
+  </item>
+  <item nodeId="node-0x6c1e770">
+    <command xml:space="preserve">slip medecine under restroom door</command>
+    <result xml:space="preserve">Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you&apos;ll need to find a way to open this door.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="62">YES</temporary>
+  </item>
+  <item nodeId="node-0xa194100">
+    <command xml:space="preserve">slip medecine under door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd5eda0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd5eda0">
+    <command xml:space="preserve">slip medecine under restroom door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xbd82bf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xbd82bf0">
+    <command xml:space="preserve">slip medecine under</command>
+    <result xml:space="preserve">(the Restroom Door)
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xa119d60" />
+    </children>
+  </item>
+  <item nodeId="node-0xa119d60">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xa109730" />
+    </children>
+  </item>
+  <item nodeId="node-0xa109730">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0xbcb0470" />
+    </children>
+  </item>
+  <item nodeId="node-0xbcb0470">
+    <command xml:space="preserve"></command>
+    <result xml:space="preserve">I beg your pardon?
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="39">YES</temporary>
+    <children>
+      <child nodeId="node-0x1b4b080" />
+    </children>
+  </item>
+  <item nodeId="node-0x1b4b080">
+    <command xml:space="preserve">slip medecine under restroom door</command>
+    <result xml:space="preserve">&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="38">YES</temporary>
+  </item>
+  <item nodeId="node-0x18eec90">
     <command xml:space="preserve">attack instructor</command>
     <result xml:space="preserve">You hit her with full force, but it barely fazes her.  She puts you in headlock until the cops show up.  You have been arrested.
 
@@ -745,7 +1366,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="11">YES</temporary>
   </item>
-  <item nodeId="node-0x18e0570">
+  <item nodeId="node-0x18ef480">
     <command xml:space="preserve">x mat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -754,11 +1375,11 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>NO</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x18e06c0" />
-      <child nodeId="node-0x18e05e0" />
+      <child nodeId="node-0x18ef5d0" />
+      <child nodeId="node-0x18ef4f0" />
     </children>
   </item>
-  <item nodeId="node-0x18e05e0">
+  <item nodeId="node-0x18ef4f0">
     <command xml:space="preserve">x yoga mat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -767,10 +1388,10 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="14">YES</temporary>
     <children>
-      <child nodeId="node-0x18e0650" />
+      <child nodeId="node-0x18ef560" />
     </children>
   </item>
-  <item nodeId="node-0x18e0650">
+  <item nodeId="node-0x18ef560">
     <command xml:space="preserve">x yoga mats</command>
     <result xml:space="preserve">A stack of dirty yoga mats.  It seems that they were recently used.
 
@@ -779,7 +1400,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="13">YES</temporary>
   </item>
-  <item nodeId="node-0x18e06c0">
+  <item nodeId="node-0x18ef5d0">
     <command xml:space="preserve">x Mat</command>
     <result xml:space="preserve">You can&apos;t see any such thing.
 
@@ -788,7 +1409,7 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="10">YES</temporary>
   </item>
-  <item nodeId="node-0x18e0730">
+  <item nodeId="node-0x18ef640">
     <command xml:space="preserve"></command>
     <result xml:space="preserve">I beg your pardon?
 

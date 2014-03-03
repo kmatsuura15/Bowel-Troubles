@@ -8,6 +8,8 @@ When play begins:
 
 Yoga Studio is a room.  The description is "You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room, your wallet and sleeping medicine sits on the stack of yoga mats right where you left them. "
 
+Ted is a man. Ted is in the Bathroom.  The description of Ted is "The sick person stuck in the bathroom."
+
 Yoga Instructor is a woman in Yoga Studio.  The description of the Instructor is "A 60 year old women who has bigger muscles than you do.  Close up, you can smell the scent of fresh vegetables."
 
 Understand "Yoga Instructor" as "[Instructor]"
@@ -44,9 +46,13 @@ Metal Door is east of the Happy Shooting and west of the Security Room.  The Met
 
 Gun is in Cabinent.  It unlocks the Restroom Door.  The description of the Gun is "You never held one before. You can feel the power of the gun flowing through your veins.  The taste of freedom is on the tip of your tounge."
 
+Medecine is in Longs.  The description is "Laxatives"
+
 Instead of opening The Restroom Door:
 	If door is locked:
-		say "'Hey! It's in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me laxatives,' says the mysterious voice on the other side of the door";
+		say "'Hey! It's in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,' says the mysterious voice on the other side of the door. ";
+	If player has medecine:
+		say "Oh… You already have the medecine?  Thanks Bud, now just slip it under the door.";
 	If door is unlocked:
 		say "'Hey man, thanks for getting me out.  Bathroom is all yours,' says the man as he leaves the bathroom.";
 		
@@ -61,6 +67,13 @@ Instead of taking Gun:
 		say "You pick up the Gun and quickly hide it in your pocket.";
 		move Gun to the player.
 		
+Slipping is an action applying to one visible thing.
+Understand "Slip medecine under [Restroom Door]" as slipping.
+
+Instead of slipping Restroom Door:
+	move medecine to Ted;
+	say "Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you'll need to find a way to open this door."
+		
 Talking is an action applying to one visible thing.
 Understand "talk to [Yoga Instructor]" as talking.
 
@@ -68,3 +81,7 @@ Instead of talking instructor:
 	say "You need to use the restroom?  It's to the east."
 	
 Mood is a kind of value.  The moods are unhappy and pleased.  People have mood.  The mood of Yoga Instructor is pleased.
+
+An every turn rule:
+if the Player is in Bathroom,
+end the game in victory.
