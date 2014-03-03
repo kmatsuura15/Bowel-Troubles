@@ -12,6 +12,8 @@ Ted is a man. Ted is in the Bathroom.  The description of Ted is "The sick perso
 
 Yoga Instructor is a woman in Yoga Studio.  The description of the Instructor is "A 60 year old women who has bigger muscles than you do.  Close up, you can smell the scent of fresh vegetables."
 
+Security Guard is a man.  Security Guard is in Longs.  The Description of Security Guard is "He looks about 7 ft tall.  You don't want to be caught stealing by him."
+
 Understand "Yoga Instructor" as "[Instructor]"
 
 Yoga Mats is scenery in Yoga Studio.  The description of the Yoga Mats is "A stack of dirty yoga mats.  It seems that they were recently used."
@@ -24,7 +26,7 @@ The Strip 1 is a room.  It is south of Yoga Studio.  The description is "This is
 
 The Strip 2 is a room.  It is east of The Strip 1.  The description is "This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1."
 
-Longs is a room.  It is south of The Strip 1.  The description is "It's just like every other Longs store. The Laxatives can be found on the Medicine shelve."
+Longs is a room.  It is south of The Strip 1.  The description is "It's just like every other Longs store. The Laxatives can be found in the Drug Cabinet."
 
 Happy Shooting is a room.  It is north of The Strip 2.  The description is "This gun store is void of all life.  The interior of the store is a very dull grey color that is completely opposite of the store's name. In the back of the room, there is a register and a cabinent that is filled with guns.  In the top corner of the room, there is a security camera that can that view your every move.  Just outside the camera's view is a door."
 
@@ -46,13 +48,24 @@ Metal Door is east of the Happy Shooting and west of the Security Room.  The Met
 
 Gun is in Cabinent.  It unlocks the Restroom Door.  The description of the Gun is "You never held one before. You can feel the power of the gun flowing through your veins.  The taste of freedom is on the tip of your tounge."
 
-Medecine is in Longs.  The description is "Laxatives"
+Drug Cabinet is in Longs.  It is a closed openable container.  The description is "It contains the medecine you seek…"
+
+Medicine is in the Drug Cabinet.  The description is "Laxatives"
+
+Secret Container is in the Strip 2.  The description is "It would seem to hide anything inside of it.  Magic…"
+
+Instead of going north from longs:
+	if player is not holding Secret Container:
+		end the game saying "The security guard caught you trying to steal!";
+	if medicine is in Secret container:
+		say "You got out safely without the guard noticing.";
+		move player to the Strip 1.
 
 Instead of opening The Restroom Door:
 	If door is locked:
 		say "'Hey! It's in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medecine,' says the mysterious voice on the other side of the door. ";
-	If player has medecine:
-		say "Oh… You already have the medecine?  Thanks Bud, now just slip it under the door.";
+		If player has medicine:
+			say "Oh… You already have the medecine?  Thanks Bud, now just slip it under the door.";
 	If door is unlocked:
 		say "'Hey man, thanks for getting me out.  Bathroom is all yours,' says the man as he leaves the bathroom.";
 		
@@ -71,7 +84,7 @@ Slipping is an action applying to one visible thing.
 Understand "Slip medecine under [Restroom Door]" as slipping.
 
 Instead of slipping Restroom Door:
-	move medecine to Ted;
+	move medicine to Ted;
 	say "Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you'll need to find a way to open this door."
 		
 Talking is an action applying to one visible thing.
