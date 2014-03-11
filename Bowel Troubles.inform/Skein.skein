@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Skein rootNode="node-0x18bd290" xmlns="http://www.logicalshift.org.uk/IF/Skein">
   <generator>Zoom</generator>
-  <activeNode nodeId="node-0xb51dd70" />
+  <activeNode nodeId="node-0x18bd290" />
   <item nodeId="node-0x18bd290">
     <command xml:space="preserve">- start -</command>
     <result xml:space="preserve">
@@ -22,12 +22,12 @@ You can see a Restroom Door and Yoga Instructor here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="441">NO</temporary>
+    <temporary score="536">NO</temporary>
     <children>
       <child nodeId="node-0x183f780" />
-      <child nodeId="node-0xeeb6b00" />
+      <child nodeId="node-0xeb35a60" />
       <child nodeId="node-0xeb6cc80" />
-      <child nodeId="node-0xebb3380" />
+      <child nodeId="node-0x6f73e20" />
       <child nodeId="node-0xeb75440" />
     </children>
   </item>
@@ -398,274 +398,56 @@ Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
     <changed>YES</changed>
     <temporary score="440">YES</temporary>
   </item>
-  <item nodeId="node-0xebb3380">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. When you do, slip the medicine under the door.
+  <item nodeId="node-0x6f73e20">
+    <command xml:space="preserve">x yoga mats</command>
+    <result xml:space="preserve">A stack of dirty yoga mats.  It seems that they were recently used.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb8db0" />
+      <child nodeId="node-0xb730690" />
     </children>
   </item>
-  <item nodeId="node-0x1bb8db0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
+  <item nodeId="node-0xb730690">
+    <command xml:space="preserve">x yoga instructor</command>
+    <result xml:space="preserve">A 60 year old women who has bigger muscles than you do.  Close up, you can smell the scent of fresh vegetables.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
     <children>
-      <child nodeId="node-0xebb5550" />
+      <child nodeId="node-0xeb30b90" />
     </children>
   </item>
-  <item nodeId="node-0xebb5550">
+  <item nodeId="node-0xeb30b90">
+    <command xml:space="preserve">talk to yoga instructor</command>
+    <result xml:space="preserve">You need to use the restroom?  It&apos;s to the east.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="448">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb7c5e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb7c5e0">
     <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
-
-You can see Hobo here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xb71ff20" />
-    </children>
-  </item>
-  <item nodeId="node-0xb71ff20">
-    <command xml:space="preserve">give hobo change</command>
-    <result xml:space="preserve">Hobo is so happy that he gives you his cherished item.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xeef6f90" />
-    </children>
-  </item>
-  <item nodeId="node-0xeef6f90">
-    <command xml:space="preserve">open container</command>
-    <result xml:space="preserve">You open Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xeef8810" />
-    </children>
-  </item>
-  <item nodeId="node-0xeef8810">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0x1890d20" />
-    </children>
-  </item>
-  <item nodeId="node-0x1890d20">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Longs
-It&apos;s just like every other Longs store. The Laxatives can be found in the Drug Cabinet.
-
-You can see Security Guard and Drug Cabinet (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bb90e0" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bb90e0">
-    <command xml:space="preserve">open cabinet</command>
-    <result xml:space="preserve">You open Drug Cabinet, revealing Medicine.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xee4c640" />
-    </children>
-  </item>
-  <item nodeId="node-0xee4c640">
-    <command xml:space="preserve">take medicine</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xee86880" />
-      <child nodeId="node-0x6fa1eb0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa1eb0">
-    <command xml:space="preserve">put medicine in container</command>
-    <result xml:space="preserve">You put Medicine into Secret Container.
+    <result xml:space="preserve">(first opening the Restroom Door)
+&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. When you do, slip the medicine under the door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="225">YES</temporary>
+    <temporary score="448">YES</temporary>
     <children>
-      <child nodeId="node-0x6fb0a80" />
+      <child nodeId="node-0xee80400" />
     </children>
   </item>
-  <item nodeId="node-0x6fb0a80">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="225">YES</temporary>
-    <children>
-      <child nodeId="node-0xb584e20" />
-    </children>
-  </item>
-  <item nodeId="node-0xb584e20">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Yoga Studio
-You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room is a stack of yoga mats. To the south is the Strip.
-
-You can see a Restroom Door and Yoga Instructor here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="225">YES</temporary>
-    <children>
-      <child nodeId="node-0xb718cb0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb718cb0">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. When you do, slip the medicine under the door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="225">YES</temporary>
-    <children>
-      <child nodeId="node-0xee7b3f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xee7b3f0">
-    <command xml:space="preserve">slip medicine under door</command>
-    <result xml:space="preserve">Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you&apos;ll need to find a way to open this door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="225">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb36230" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb36230">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. When you do, slip the medicine under the door.
-You need to find a way to get the door open
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="224">YES</temporary>
-  </item>
-  <item nodeId="node-0xee86880">
-    <command xml:space="preserve">put medicine in secret container</command>
-    <result xml:space="preserve">You put Medicine into Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb87730" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb87730">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xb713970" />
-    </children>
-  </item>
-  <item nodeId="node-0xb713970">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">
-Yoga Studio
-You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room is a stack of yoga mats. To the south is the Strip.
-
-You can see a Restroom Door and Yoga Instructor here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0x72ed920" />
-    </children>
-  </item>
-  <item nodeId="node-0x72ed920">
-    <command xml:space="preserve">slip medicine under door</command>
-    <result xml:space="preserve">Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you&apos;ll need to find a way to open this door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0x6f61690" />
-    </children>
-  </item>
-  <item nodeId="node-0x6f61690">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">You need to find a way to get the door open
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xee782a0" />
-    </children>
-  </item>
-  <item nodeId="node-0xee782a0">
+  <item nodeId="node-0xee80400">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Strip 1
@@ -676,119 +458,31 @@ You can see Sleeping Drug here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="248">YES</temporary>
+    <temporary score="448">YES</temporary>
     <children>
-      <child nodeId="node-0xb72bd40" />
+      <child nodeId="node-0xebcd450" />
     </children>
   </item>
-  <item nodeId="node-0xb72bd40">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
-
-You can see Hobo here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb9da10" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb9da10">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb77750" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb77750">
-    <command xml:space="preserve">take sleeping drug</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fb1be0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fb1be0">
+  <item nodeId="node-0xebcd450">
     <command xml:space="preserve">x sleeping drug</command>
     <result xml:space="preserve">If mixed in a liquid, it would become a very potent.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="248">YES</temporary>
+    <temporary score="448">YES</temporary>
     <children>
-      <child nodeId="node-0xeee6740" />
+      <child nodeId="node-0x117b4dc0" />
     </children>
   </item>
-  <item nodeId="node-0xeee6740">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
-
-You can see Hobo here.
+  <item nodeId="node-0x117b4dc0">
+    <command xml:space="preserve">take sleeping drug</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb8e9e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb8e9e0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Cafe
-An empty cafe with rows of emtpy tables.  In the corner of the room is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
-
-You can see Old Man, Coffee, Newspaper and Silver Key here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xebb4c00" />
-    </children>
-  </item>
-  <item nodeId="node-0xebb4c00">
-    <command xml:space="preserve">talk to old man</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="248">YES</temporary>
-    <children>
-      <child nodeId="node-0xb715ce0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb715ce0">
-    <command xml:space="preserve">talk to Old man</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="247">YES</temporary>
+    <temporary score="447">YES</temporary>
   </item>
   <item nodeId="node-0xeb6cc80">
     <command xml:space="preserve">east</command>
@@ -843,202 +537,267 @@ You can see Hobo here.
     <played>YES</played>
     <changed>YES</changed>
     <temporary score="306">YES</temporary>
-    <children>
-      <child nodeId="node-0xebe7b40" />
-    </children>
   </item>
-  <item nodeId="node-0xebe7b40">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Cafe
-An empty cafe with rows of emtpy tables.  In the corner of the room is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
-
-You can see Old Man, Coffee (in which is Milk), Newspaper and Silver Key here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="305">YES</temporary>
-  </item>
-  <item nodeId="node-0xeeb6b00">
+  <item nodeId="node-0xeb35a60">
     <command xml:space="preserve">open restroom door</command>
-    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. 
+    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. When you do, slip the medicine under the door.
+
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
     <children>
-      <child nodeId="node-0x6f7e700" />
+      <child nodeId="node-0x1b394d0" />
     </children>
   </item>
-  <item nodeId="node-0x6f7e700">
+  <item nodeId="node-0x1b394d0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
 
 You can see Sleeping Drug here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
     <children>
-      <child nodeId="node-0xeb8ed40" />
+      <child nodeId="node-0x13899f80" />
     </children>
   </item>
-  <item nodeId="node-0xeb8ed40">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
-
-You can see Hobo here.
+  <item nodeId="node-0x13899f80">
+    <command xml:space="preserve">take sleeping drug</command>
+    <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
     <children>
-      <child nodeId="node-0x18b32d0" />
+      <child nodeId="node-0xb725c70" />
     </children>
   </item>
-  <item nodeId="node-0x18b32d0">
-    <command xml:space="preserve">give hobo change</command>
-    <result xml:space="preserve">Hobo is so happy that he gives you his cherished item.
+  <item nodeId="node-0xb725c70">
+    <command xml:space="preserve">x drug</command>
+    <result xml:space="preserve">If mixed in a liquid, it would become a very potent.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
     <children>
-      <child nodeId="node-0x1bb7c80" />
+      <child nodeId="node-0x11723850" />
     </children>
   </item>
-  <item nodeId="node-0x1bb7c80">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="196">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb645f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb645f0">
+  <item nodeId="node-0x11723850">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Longs
-It&apos;s just like every other Longs store. The Laxatives can be found in the Drug Cabinet.
+It&apos;s just like every other Longs store, except for the fact it&apos;s completely void of anything except medicine.  About two days ago, there was a tsunami warning and everyone freaked out and bought everything in Longs expecting the tsunami to competely cover Hawaii;  The tsunami turned out to be two inches.  The medicine can be found in the Drug Cabinet.
 
 You can see Security Guard and Drug Cabinet (closed) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
     <children>
-      <child nodeId="node-0xebcb680" />
+      <child nodeId="node-0x117f1ca0" />
     </children>
   </item>
-  <item nodeId="node-0xebcb680">
+  <item nodeId="node-0x117f1ca0">
+    <command xml:space="preserve">attack guard</command>
+    <result xml:space="preserve">You hit him with all your might; but your punch seemed uneffective.  He quickly puts you in a headlock and holds you until the cops arrived.
+
+
+
+    *** You&apos;re going to the can. ***
+
+
+In that game you scored 0 out of a possible 0, in 6 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb54e40" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb54e40">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Longs
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xebbfbf0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebbfbf0">
     <command xml:space="preserve">open cabinet</command>
     <result xml:space="preserve">You open Drug Cabinet, revealing Medicine.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
     <children>
-      <child nodeId="node-0xeba3a40" />
+      <child nodeId="node-0xee34000" />
     </children>
   </item>
-  <item nodeId="node-0xeba3a40">
-    <command xml:space="preserve">open secret container</command>
-    <result xml:space="preserve">You open Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="196">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5d7e50" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5d7e50">
+  <item nodeId="node-0xee34000">
     <command xml:space="preserve">take medicine</command>
     <result xml:space="preserve">Taken.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
     <children>
-      <child nodeId="node-0xb7ee6e0" />
+      <child nodeId="node-0xeb33a30" />
     </children>
   </item>
-  <item nodeId="node-0xb7ee6e0">
-    <command xml:space="preserve">put medicine in container</command>
-    <result xml:space="preserve">You put Medicine into Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="196">YES</temporary>
-    <children>
-      <child nodeId="node-0xb717610" />
-    </children>
-  </item>
-  <item nodeId="node-0xb717610">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="196">YES</temporary>
-    <children>
-      <child nodeId="node-0x1bbde00" />
-    </children>
-  </item>
-  <item nodeId="node-0x1bbde00">
+  <item nodeId="node-0xeb33a30">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
-Yoga Studio
-You and your Yoga Instructor are the only people in the room.  You were having a private yoga session because your psychiatrist recommended it would help; You know, with your anger issues and such.  In the corner of the room is a stack of yoga mats. To the south is the Strip.
 
-You can see a Restroom Door and Yoga Instructor here.
+    *** The security guard caught you trying to steal! ***
+
+
+In that game you scored 0 out of a possible 0, in 8 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb87200" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb87200">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Longs
+[Previous turn undone.]
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="196">YES</temporary>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb5e590" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb5e590">
+    <command xml:space="preserve">put medicine in cabinet</command>
+    <result xml:space="preserve">You put Medicine into Drug Cabinet.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0x13857b40" />
+    </children>
+  </item>
+  <item nodeId="node-0x13857b40">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Strip 1
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0x72de3f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x72de3f0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Strip 2
+This is the second half of the strip.  Just like the first half, almost all the stores are closed.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
+
+You can see Hobo here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xebea310" />
+    </children>
+  </item>
+  <item nodeId="node-0xebea310">
+    <command xml:space="preserve">x hobo</command>
+    <result xml:space="preserve">A smelly homesless person.  Hobo looks unhappy.   He seems to be holding a secret container.  You should talk to him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xb72e220" />
+    </children>
+  </item>
+  <item nodeId="node-0xb72e220">
+    <command xml:space="preserve">ask hobo about secret container</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xebdc5d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebdc5d0">
+    <command xml:space="preserve">ask hobo about secret container</command>
+    <result xml:space="preserve">There is no reply.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="466">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5e0540" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5e0540">
+    <command xml:space="preserve">ask hobo for secret container</command>
+    <result xml:space="preserve">The Hobo refuses to give you his Secret Container; but asks fror change instead.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="465">YES</temporary>
   </item>
   <item nodeId="node-0x183f780">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
 
 You can see Sleeping Drug here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="415">YES</temporary>
+    <temporary score="536">YES</temporary>
     <children>
       <child nodeId="node-0x183f710" />
-      <child nodeId="node-0xebf0a30" />
       <child nodeId="node-0xb731730" />
+      <child nodeId="node-0xeb238a0" />
       <child nodeId="node-0xeb588f0" />
     </children>
   </item>
@@ -1049,7 +808,7 @@ You can see Sleeping Drug here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="415">YES</temporary>
+    <temporary score="536">YES</temporary>
     <children>
       <child nodeId="node-0x72d39d0" />
     </children>
@@ -1058,14 +817,14 @@ You can see Sleeping Drug here.
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
+This is the second half of the strip.  Just like the first half, almost all the stores are closed.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
 
 You can see Hobo here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="415">YES</temporary>
+    <temporary score="536">YES</temporary>
     <children>
       <child nodeId="node-0xeb83a60" />
       <child nodeId="node-0x72d3190" />
@@ -1180,17 +939,17 @@ You can see a metal door and a Cabinent (closed) here.
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Cafe
-An empty cafe with rows of emtpy tables.  In the corner of the room is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
+An empty cafe with rows of emtpy tables.  It seems like the Cafe was just about to close. In the corner of the room, there is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
 
 You can see Old Man, Cup (in which is Coffee), Newspaper and Silver Key here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="415">YES</temporary>
+    <temporary score="536">YES</temporary>
     <children>
       <child nodeId="node-0x11782160" />
-      <child nodeId="node-0xebb1ef0" />
+      <child nodeId="node-0xeb6bd00" />
       <child nodeId="node-0xb5e7260" />
     </children>
   </item>
@@ -1201,7 +960,7 @@ You can see Old Man, Cup (in which is Coffee), Newspaper and Silver Key here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="415">YES</temporary>
+    <temporary score="536">YES</temporary>
     <children>
       <child nodeId="node-0x11783330" />
       <child nodeId="node-0xeb2fa60" />
@@ -1352,7 +1111,7 @@ You can see a metal door, Case Key and Red Switch here.
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="400">YES</temporary>
+    <temporary score="535">YES</temporary>
     <children>
       <child nodeId="node-0xeb225d0" />
     </children>
@@ -1561,26 +1320,102 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="354">YES</temporary>
   </item>
-  <item nodeId="node-0xebb1ef0">
-    <command xml:space="preserve">put drug in coffee</command>
-    <result xml:space="preserve">You put Sleeping Drug into Coffee.
+  <item nodeId="node-0xeb6bd00">
+    <command xml:space="preserve">x cup</command>
+    <result xml:space="preserve">A cup that contains the Old Man&apos;s coffee.  You could put something into this cup…
 
-&gt;</result>
-    <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="272">YES</temporary>
-    <children>
-      <child nodeId="node-0xebda060" />
-    </children>
-  </item>
-  <item nodeId="node-0xebda060">
-    <command xml:space="preserve">take silver key</command>
-    <result xml:space="preserve">You take the man&apos;s silver key while he is asleep.
+In Cup is Coffee.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="271">YES</temporary>
+    <temporary score="520">YES</temporary>
+    <children>
+      <child nodeId="node-0xee8d840" />
+    </children>
+  </item>
+  <item nodeId="node-0xee8d840">
+    <command xml:space="preserve">x newspaper</command>
+    <result xml:space="preserve">Honolulu Star Advertiser.  The top story: Surfer jailed for attacking another Surfer.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="520">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb9f6d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb9f6d0">
+    <command xml:space="preserve">x silver key</command>
+    <result xml:space="preserve">A silver key that seems to unlock a door…
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="520">YES</temporary>
+    <children>
+      <child nodeId="node-0xebfb3b0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebfb3b0">
+    <command xml:space="preserve">x old man</command>
+    <result xml:space="preserve">He&apos;s dressed in rugged jeans and a Happy Shooting T-Shirt.  He seems to be reading the newspaper and drinking some coffee.  On his table is a Silver Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="520">YES</temporary>
+    <children>
+      <child nodeId="node-0xebb3ad0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebb3ad0">
+    <command xml:space="preserve">x table</command>
+    <result xml:space="preserve">This particular table is just like every other table in the room.  The table in the corner of the room has a Silver Key on it, but it seems to be the Old Man&apos;s.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="520">YES</temporary>
+    <children>
+      <child nodeId="node-0x182f260" />
+    </children>
+  </item>
+  <item nodeId="node-0x182f260">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Sleeping Drug
+  Change
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="520">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb36280" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb36280">
+    <command xml:space="preserve">put sleeping drug in coffee</command>
+    <result xml:space="preserve">That can&apos;t contain things.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="520">YES</temporary>
+    <children>
+      <child nodeId="node-0xeed37f0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeed37f0">
+    <command xml:space="preserve">put sleeping drug in cup</command>
+    <result xml:space="preserve">You put Sleeping Drug into Cup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="519">YES</temporary>
   </item>
   <item nodeId="node-0x11782160">
     <command xml:space="preserve">take cup</command>
@@ -1625,6 +1460,59 @@ You can see a metal door, Case Key and Red Switch here.
     <changed>YES</changed>
     <temporary score="319">YES</temporary>
   </item>
+  <item nodeId="node-0xeb238a0">
+    <command xml:space="preserve">take sleeping drug</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="530">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb6feb0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb6feb0">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Strip 2
+This is the second half of the strip.  Just like the first half, almost all the stores are closed.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
+
+You can see Hobo here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="530">YES</temporary>
+    <children>
+      <child nodeId="node-0xee5d840" />
+    </children>
+  </item>
+  <item nodeId="node-0xee5d840">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Cafe
+An empty cafe with rows of emtpy tables.  It seems like the Cafe was just about to close. In the corner of the room, there is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
+
+You can see Old Man, Cup (in which is Coffee), Newspaper and Silver Key here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="530">YES</temporary>
+    <children>
+      <child nodeId="node-0xee9b980" />
+    </children>
+  </item>
+  <item nodeId="node-0xee9b980">
+    <command xml:space="preserve">put sleeping drug in cup</command>
+    <result xml:space="preserve">You put Sleeping Drug into Cup.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>NO</changed>
+    <temporary score="529">YES</temporary>
+  </item>
   <item nodeId="node-0xb731730">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
@@ -1638,204 +1526,20 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>NO</changed>
     <temporary score="385">YES</temporary>
   </item>
-  <item nodeId="node-0xebf0a30">
-    <command xml:space="preserve">give hobo change</command>
-    <result xml:space="preserve">You can&apos;t see any such thing.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xebd72b0" />
-    </children>
-  </item>
-  <item nodeId="node-0xebd72b0">
-    <command xml:space="preserve">take drug</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa2a30" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa2a30">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
-
-You can see Hobo here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b42830" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b42830">
-    <command xml:space="preserve">give hobo change</command>
-    <result xml:space="preserve">Hobo is so happy that he gives you his cherished item.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xebc7810" />
-    </children>
-  </item>
-  <item nodeId="node-0xebc7810">
-    <command xml:space="preserve">open container</command>
-    <result xml:space="preserve">You open Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0x72ddad0" />
-    </children>
-  </item>
-  <item nodeId="node-0x72ddad0">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xb5b0a40" />
-    </children>
-  </item>
-  <item nodeId="node-0xb5b0a40">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Longs
-It&apos;s just like every other Longs store. The Laxatives can be found in the Drug Cabinet.
-
-You can see Security Guard and Drug Cabinet (closed) here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb71d70" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb71d70">
-    <command xml:space="preserve">open cabinet</command>
-    <result xml:space="preserve">You open Drug Cabinet, revealing Medicine.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xebcfd90" />
-    </children>
-  </item>
-  <item nodeId="node-0xebcfd90">
-    <command xml:space="preserve">take medicine</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xb706e40" />
-    </children>
-  </item>
-  <item nodeId="node-0xb706e40">
-    <command xml:space="preserve">put medicine in container</command>
-    <result xml:space="preserve">You put Medicine into Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xebc5710" />
-    </children>
-  </item>
-  <item nodeId="node-0xebc5710">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0x6fa0aa0" />
-    </children>
-  </item>
-  <item nodeId="node-0x6fa0aa0">
-    <command xml:space="preserve">east</command>
-    <result xml:space="preserve">
-Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
-
-You can see Hobo here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xb52e4f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb52e4f0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Cafe
-An empty cafe with rows of emtpy tables.  In the corner of the room is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
-
-You can see Old Man, Coffee (empty), Newspaper and Silver Key here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="287">YES</temporary>
-    <children>
-      <child nodeId="node-0xb738350" />
-    </children>
-  </item>
-  <item nodeId="node-0xb738350">
-    <command xml:space="preserve">put drug in coffee</command>
-    <result xml:space="preserve">You put Sleeping Drug into Coffee.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="286">YES</temporary>
-  </item>
   <item nodeId="node-0x183f710">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
+This is the second half of the strip.  Just like the first half, almost all the stores are closed.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
 
 You can see Hobo here.
 
 &gt;</result>
     <played>YES</played>
     <changed>NO</changed>
-    <temporary score="384">YES</temporary>
+    <temporary score="506">YES</temporary>
     <children>
-      <child nodeId="node-0xeb704d0" />
+      <child nodeId="node-0xb7d1c20" />
       <child nodeId="node-0xeb30880" />
     </children>
   </item>
@@ -1843,17 +1547,143 @@ You can see Hobo here.
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
 
 You can see Sleeping Drug here.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="384">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
     <children>
       <child nodeId="node-0xee9b9f0" />
+      <child nodeId="node-0xeb31ca0" />
     </children>
+  </item>
+  <item nodeId="node-0xeb31ca0">
+    <command xml:space="preserve">take drug</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb3e660" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb3e660">
+    <command xml:space="preserve">east</command>
+    <result xml:space="preserve">
+Strip 2
+This is the second half of the strip.  Just like the first half, almost all the stores are closed.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
+
+You can see Hobo here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0xebca1e0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebca1e0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Cafe
+An empty cafe with rows of emtpy tables.  It seems like the Cafe was just about to close. In the corner of the room, there is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
+
+You can see Old Man, Cup (in which is Coffee), Newspaper and Silver Key here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0xb722af0" />
+    </children>
+  </item>
+  <item nodeId="node-0xb722af0">
+    <command xml:space="preserve">x old man</command>
+    <result xml:space="preserve">He&apos;s dressed in rugged jeans and a Happy Shooting T-Shirt.  He seems to be reading the newspaper and drinking some coffee.  On his table is a Silver Key.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0x185e6f0" />
+    </children>
+  </item>
+  <item nodeId="node-0x185e6f0">
+    <command xml:space="preserve">take keuy</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0xebdbf10" />
+    </children>
+  </item>
+  <item nodeId="node-0xebdbf10">
+    <command xml:space="preserve">take silver key</command>
+    <result xml:space="preserve">The man stops you from stealing his property and quickly knocks you out in a swift punch.
+
+
+
+    *** You should find a way to steal the Silver Key without the man noticing… ***
+
+
+In that game you scored 0 out of a possible 0, in 8 turns.
+
+
+Would you like to RESTART, RESTORE a saved game, QUIT or UNDO the last command?
+&gt; </result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0xeeab0a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeeab0a0">
+    <command xml:space="preserve">undo</command>
+    <result xml:space="preserve">Cafe
+[Previous turn undone.]
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0xebcbfd0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebcbfd0">
+    <command xml:space="preserve">x coffee</command>
+    <result xml:space="preserve">You see nothing special about Coffee.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="506">YES</temporary>
+    <children>
+      <child nodeId="node-0x138e5cb0" />
+    </children>
+  </item>
+  <item nodeId="node-0x138e5cb0">
+    <command xml:space="preserve">x cup</command>
+    <result xml:space="preserve">Black.  This is the coffee the Old Man is drinking.
+
+In Cup is Coffee.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="505">YES</temporary>
   </item>
   <item nodeId="node-0xee9b9f0">
     <command xml:space="preserve">take sleeping drug</command>
@@ -1897,89 +1727,7 @@ You can see Old Man, Cup (in which is Coffee), Newspaper and Silver Key here.
     <temporary score="384">YES</temporary>
     <children>
       <child nodeId="node-0xeb390c0" />
-      <child nodeId="node-0xeb92600" />
     </children>
-  </item>
-  <item nodeId="node-0xeb92600">
-    <command xml:space="preserve">x old man</command>
-    <result xml:space="preserve">He&apos;s dressed in rugged jeans and a Happy Shooting T-Shirt.  He seems to be reading the newspaper and drinking some coffee.  On his table is a Silver Key.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="261">YES</temporary>
-    <children>
-      <child nodeId="node-0xb725f50" />
-    </children>
-  </item>
-  <item nodeId="node-0xb725f50">
-    <command xml:space="preserve">talk to old man</command>
-    <result xml:space="preserve">He looks at you, and then back to his newspaper.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="261">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb5edf0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb5edf0">
-    <command xml:space="preserve">x newspaper</command>
-    <result xml:space="preserve">Honolulu Star Advertiser.  The top story: Surfer jailed for attacking another Surfer.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="261">YES</temporary>
-    <children>
-      <child nodeId="node-0xb72cef0" />
-    </children>
-  </item>
-  <item nodeId="node-0xb72cef0">
-    <command xml:space="preserve">x coffee</command>
-    <result xml:space="preserve">Black.  This is the coffee the Old Man is drinking.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="261">YES</temporary>
-    <children>
-      <child nodeId="node-0xee8c330" />
-    </children>
-  </item>
-  <item nodeId="node-0xee8c330">
-    <command xml:space="preserve">x key</command>
-    <result xml:space="preserve">A silver key that seems to unlock a door…
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="261">YES</temporary>
-    <children>
-      <child nodeId="node-0xb7eb090" />
-    </children>
-  </item>
-  <item nodeId="node-0xb7eb090">
-    <command xml:space="preserve">put sleeping drug in coffee</command>
-    <result xml:space="preserve">That can&apos;t contain things.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="261">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb8c0e0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb8c0e0">
-    <command xml:space="preserve">put sleeping drug in coffee</command>
-    <result xml:space="preserve">That can&apos;t contain things.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="260">YES</temporary>
   </item>
   <item nodeId="node-0xeb390c0">
     <command xml:space="preserve">put drug in cup</command>
@@ -2282,115 +2030,256 @@ You can see a Restroom Door and Yoga Instructor here.
     <changed>YES</changed>
     <temporary score="383">YES</temporary>
   </item>
-  <item nodeId="node-0xeb704d0">
+  <item nodeId="node-0xb7d1c20">
+    <command xml:space="preserve">x hobo</command>
+    <result xml:space="preserve">A smelly homesless person.  Hobo looks unhappy.   He seems to be holding a secret container.  You should talk to him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xebf1a80" />
+    </children>
+  </item>
+  <item nodeId="node-0xebf1a80">
+    <command xml:space="preserve">talk to hobo</command>
+    <result xml:space="preserve">As you begin to speak, the Hobo cuts you off and asks for change; while pointing at your pocket.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xeed7020" />
+    </children>
+  </item>
+  <item nodeId="node-0xeed7020">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Change
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0x117e0920" />
+    </children>
+  </item>
+  <item nodeId="node-0x117e0920">
     <command xml:space="preserve">give hobo change</command>
     <result xml:space="preserve">Hobo is so happy that he gives you his cherished item.
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="301">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0xeb5b5d0" />
+      <child nodeId="node-0xebbdc60" />
     </children>
   </item>
-  <item nodeId="node-0xeb5b5d0">
-    <command xml:space="preserve">open container</command>
-    <result xml:space="preserve">You open Secret Container.
+  <item nodeId="node-0xebbdc60">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Secret Container (closed)
 
 &gt;</result>
     <played>YES</played>
-    <changed>NO</changed>
-    <temporary score="301">YES</temporary>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0x72e0af0" />
-      <child nodeId="node-0xebb5180" />
+      <child nodeId="node-0xeb01cd0" />
     </children>
   </item>
-  <item nodeId="node-0xebb5180">
+  <item nodeId="node-0xeb01cd0">
+    <command xml:space="preserve">x secret container</command>
+    <result xml:space="preserve">It would seem to hide anything inside of it.  Magic…
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xb7f2100" />
+    </children>
+  </item>
+  <item nodeId="node-0xb7f2100">
     <command xml:space="preserve">west</command>
     <result xml:space="preserve">
 Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
 
 You can see Sleeping Drug here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="210">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0x72538d0" />
+      <child nodeId="node-0x117c68a0" />
     </children>
   </item>
-  <item nodeId="node-0x72538d0">
+  <item nodeId="node-0x117c68a0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
 Longs
-It&apos;s just like every other Longs store. The Laxatives can be found in the Drug Cabinet.
+It&apos;s just like every other Longs store, except for the fact it&apos;s completely void of anything except medicine.  About two days ago, there was a tsunami warning and everyone freaked out and bought everything in Longs expecting the tsunami to competely cover Hawaii;  The tsunami turned out to be two inches.  The medicine can be found in the Drug Cabinet.
 
 You can see Security Guard and Drug Cabinet (closed) here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="210">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0xb70a640" />
+      <child nodeId="node-0xeeae410" />
     </children>
   </item>
-  <item nodeId="node-0xb70a640">
-    <command xml:space="preserve">open cabinet</command>
-    <result xml:space="preserve">You open Drug Cabinet, revealing Medicine.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="210">YES</temporary>
-    <children>
-      <child nodeId="node-0xeefbb90" />
-    </children>
-  </item>
-  <item nodeId="node-0xeefbb90">
-    <command xml:space="preserve">take medicine</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="210">YES</temporary>
-    <children>
-      <child nodeId="node-0xee26040" />
-    </children>
-  </item>
-  <item nodeId="node-0xee26040">
-    <command xml:space="preserve">put medicine in container</command>
-    <result xml:space="preserve">You put Medicine into Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="210">YES</temporary>
-    <children>
-      <child nodeId="node-0xee49090" />
-    </children>
-  </item>
-  <item nodeId="node-0xee49090">
+  <item nodeId="node-0xeeae410">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
 
 You can see Sleeping Drug here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="210">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0x1b3cd30" />
+      <child nodeId="node-0xeb07f40" />
     </children>
   </item>
-  <item nodeId="node-0x1b3cd30">
+  <item nodeId="node-0xeb07f40">
+    <command xml:space="preserve">take drug</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xee53ef0" />
+    </children>
+  </item>
+  <item nodeId="node-0xee53ef0">
+    <command xml:space="preserve">south</command>
+    <result xml:space="preserve">
+Longs
+It&apos;s just like every other Longs store, except for the fact it&apos;s completely void of anything except medicine.  About two days ago, there was a tsunami warning and everyone freaked out and bought everything in Longs expecting the tsunami to competely cover Hawaii;  The tsunami turned out to be two inches.  The medicine can be found in the Drug Cabinet.
+
+You can see Security Guard and Drug Cabinet (closed) here.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb01580" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb01580">
+    <command xml:space="preserve">talk to guard</command>
+    <result xml:space="preserve">As you approach the oversized man, he looks at you; and you soon realize it would be a bad idea to talk to him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0x117a5750" />
+    </children>
+  </item>
+  <item nodeId="node-0x117a5750">
+    <command xml:space="preserve">x guard</command>
+    <result xml:space="preserve">He looks about 7 ft tall.  You don&apos;t want to be caught stealing by him.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xebc57d0" />
+    </children>
+  </item>
+  <item nodeId="node-0xebc57d0">
+    <command xml:space="preserve">open cabinet</command>
+    <result xml:space="preserve">You open Drug Cabinet, revealing Medicine.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xb5f7760" />
+    </children>
+  </item>
+  <item nodeId="node-0xb5f7760">
+    <command xml:space="preserve">take medicine</command>
+    <result xml:space="preserve">Taken.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0x1bfbfe0" />
+    </children>
+  </item>
+  <item nodeId="node-0x1bfbfe0">
+    <command xml:space="preserve">i</command>
+    <result xml:space="preserve">You are carrying:
+  Medicine
+  Sleeping Drug
+  Secret Container (closed)
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xeb707a0" />
+    </children>
+  </item>
+  <item nodeId="node-0xeb707a0">
+    <command xml:space="preserve">open container</command>
+    <result xml:space="preserve">You open Secret Container.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0x117ea530" />
+    </children>
+  </item>
+  <item nodeId="node-0x117ea530">
+    <command xml:space="preserve">put medicine in secret container</command>
+    <result xml:space="preserve">You put Medicine into Secret Container.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0xebe3d10" />
+    </children>
+  </item>
+  <item nodeId="node-0xebe3d10">
+    <command xml:space="preserve">north</command>
+    <result xml:space="preserve">Strip 1
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0x138931c0" />
+    </children>
+  </item>
+  <item nodeId="node-0x138931c0">
     <command xml:space="preserve">north</command>
     <result xml:space="preserve">
 Yoga Studio
@@ -2401,176 +2290,84 @@ You can see a Restroom Door and Yoga Instructor here.
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="210">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0xb70b410" />
+      <child nodeId="node-0x1854690" />
     </children>
   </item>
-  <item nodeId="node-0xb70b410">
-    <command xml:space="preserve">open door</command>
+  <item nodeId="node-0x1854690">
+    <command xml:space="preserve">open restroom door</command>
     <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. When you do, slip the medicine under the door.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="210">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0xee0e360" />
+      <child nodeId="node-0xeb73710" />
     </children>
   </item>
-  <item nodeId="node-0xee0e360">
+  <item nodeId="node-0xeb73710">
+    <command xml:space="preserve">slip medicine under sdoor</command>
+    <result xml:space="preserve">You can&apos;t see any such thing.
+
+&gt;</result>
+    <played>YES</played>
+    <changed>YES</changed>
+    <temporary score="494">YES</temporary>
+    <children>
+      <child nodeId="node-0x117a76b0" />
+    </children>
+  </item>
+  <item nodeId="node-0x117a76b0">
     <command xml:space="preserve">slip medicine under door</command>
-    <result xml:space="preserve">Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you&apos;ll need to find a way to open this door.
+    <result xml:space="preserve">Thanks You! But it would seem the door is jammed… If you want to use the bathroom, you&apos;ll need to find a way to open this door.  Maybe you could shoot this door down.  Only if you had a gun...
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="210">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0xeb85d20" />
+      <child nodeId="node-0x6fa67f0" />
     </children>
   </item>
-  <item nodeId="node-0xeb85d20">
-    <command xml:space="preserve">open door</command>
-    <result xml:space="preserve">&quot;Hey! It&apos;s in use! Wait…  You need to use the restroom too?  Well it seems we can help each other.  If you want to use the restroom, go get me medicine,&quot; says the mysterious voice on the other side of the door. When you do, slip the medicine under the door.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="209">YES</temporary>
-  </item>
-  <item nodeId="node-0x72e0af0">
-    <command xml:space="preserve">ewst</command>
-    <result xml:space="preserve">That&apos;s not a verb I recognise.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="301">YES</temporary>
-    <children>
-      <child nodeId="node-0xebc6200" />
-    </children>
-  </item>
-  <item nodeId="node-0xebc6200">
-    <command xml:space="preserve">west</command>
-    <result xml:space="preserve">
-Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-You can see Sleeping Drug here.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="301">YES</temporary>
-    <children>
-      <child nodeId="node-0xeb3a700" />
-    </children>
-  </item>
-  <item nodeId="node-0xeb3a700">
-    <command xml:space="preserve">take drug</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="301">YES</temporary>
-    <children>
-      <child nodeId="node-0x1b93d30" />
-    </children>
-  </item>
-  <item nodeId="node-0x1b93d30">
+  <item nodeId="node-0x6fa67f0">
     <command xml:space="preserve">south</command>
     <result xml:space="preserve">
-Longs
-It&apos;s just like every other Longs store. The Laxatives can be found in the Drug Cabinet.
-
-You can see Security Guard and Drug Cabinet (closed) here.
+Strip 1
+This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="301">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0xeb79df0" />
+      <child nodeId="node-0xeb84c80" />
     </children>
   </item>
-  <item nodeId="node-0xeb79df0">
-    <command xml:space="preserve">open cabinet</command>
-    <result xml:space="preserve">You open Drug Cabinet, revealing Medicine.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="301">YES</temporary>
-    <children>
-      <child nodeId="node-0xb71c760" />
-    </children>
-  </item>
-  <item nodeId="node-0xb71c760">
-    <command xml:space="preserve">take medicine</command>
-    <result xml:space="preserve">Taken.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="301">YES</temporary>
-    <children>
-      <child nodeId="node-0x724d930" />
-    </children>
-  </item>
-  <item nodeId="node-0x724d930">
-    <command xml:space="preserve">put medicine in container</command>
-    <result xml:space="preserve">You put Medicine into Secret Container.
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="301">YES</temporary>
-    <children>
-      <child nodeId="node-0xebb3480" />
-    </children>
-  </item>
-  <item nodeId="node-0xebb3480">
-    <command xml:space="preserve">north</command>
-    <result xml:space="preserve">Strip 1
-This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2
-
-&gt;</result>
-    <played>YES</played>
-    <changed>YES</changed>
-    <temporary score="301">YES</temporary>
-    <children>
-      <child nodeId="node-0xeede0f0" />
-    </children>
-  </item>
-  <item nodeId="node-0xeede0f0">
+  <item nodeId="node-0xeb84c80">
     <command xml:space="preserve">east</command>
     <result xml:space="preserve">
 Strip 2
-This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
+This is the second half of the strip.  Just like the first half, almost all the stores are closed.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1.
 
 You can see Hobo here.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="301">YES</temporary>
+    <temporary score="494">YES</temporary>
     <children>
-      <child nodeId="node-0x7297be0" />
+      <child nodeId="node-0xebc1010" />
     </children>
   </item>
-  <item nodeId="node-0x7297be0">
-    <command xml:space="preserve">south</command>
-    <result xml:space="preserve">
-Cafe
-An empty cafe with rows of emtpy tables.  In the corner of the room is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key.
-
-You can see Old Man, Coffee (empty), Newspaper and Silver Key here.
+  <item nodeId="node-0xebc1010">
+    <command xml:space="preserve">talk to hobo</command>
+    <result xml:space="preserve">As you begin to speak, the Hobo cuts you off and asks for change; while pointing at your pocket.
 
 &gt;</result>
     <played>YES</played>
     <changed>YES</changed>
-    <temporary score="300">YES</temporary>
+    <temporary score="493">YES</temporary>
   </item>
 </Skein>

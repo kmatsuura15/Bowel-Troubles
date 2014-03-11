@@ -19,7 +19,10 @@ Old Man is a man.  Old man is in Cafe.  The description of the Old Man is "He's 
 Hobo is a man.  Hobo is in the Strip 2.  The description of the Hobo is "A smelly homesless person.  Hobo looks [unhappy].  [if Hobo has Secret Container] He seems to be holding a secret container.  You should talk to him." [end if]
 
 Instead of talking hobo:
-	say "As you begin to speak, the Hobo cuts you off and asks for change; while pointing at your pocket."
+	if hobo has secret container:
+		say "As you begin to speak, the Hobo cuts you off and asks for change; while pointing at your pocket.";
+	if player has secret container:
+		say "The hobo looks at you and smiles.  He holds out his hand for more change."
 
 Understand "Yoga Instructor" as "[Instructor]"
 
@@ -29,25 +32,25 @@ The Restroom Door is east of the Yoga Studio and west of the Bathroom.  The Rest
 
 Bathroom is a room.  It is east of the Restroom Door.  The description is "FREEEEDOM! YOU CAN FINALLY USE THE TOILET!"
 
-The Strip 1 is a room.  It is south of Yoga Studio.  The description is "This is the first half of the strip.  To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2"
+The Strip 1 is a room.  It is south of Yoga Studio.  The description is "This is the first half of the strip.  Every store that is usually opened during the day is closed.  The only store open right now is Longs, which is perfect because they have medicine for you friend in the bathroom. To the south is Longs, to the north is the Yoga Studio, and to the east is the Strip 2"
 
-The Strip 2 is a room.  It is east of The Strip 1.  The description is "This is the second half of the strip.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1."
+The Strip 2 is a room.  It is east of The Strip 1.  The description is "This is the second half of the strip.  Just like the first half, almost all the stores are closed.  To the North is the Happy Shooting.  To the South is the Cafe.  To the West is the Strip 1."
 
 Change is a thing. The player carries the change. The description of the change is "About 12 cents.  It seems you can't buy anything with this."
 
 Sleeping Drug is in the Strip 1.  The description of the sleeping drug is "If mixed in a liquid, it would become a very potent."
 
-Longs is a room.  It is south of The Strip 1.  The description is "It's just like every other Longs store. The Laxatives can be found in the Drug Cabinet."
+Longs is a room.  It is south of The Strip 1.  The description is "It's just like every other Longs store, except for the fact it's completely void of anything except medicine.  About two days ago, there was a tsunami warning and everyone freaked out and bought everything in Longs expecting the tsunami to competely cover Hawaii;  The tsunami turned out to be two inches.  The medicine can be found in the Drug Cabinet."
 
 Happy Shooting is a room.  It is north of The Strip 2.  The description is "This gun store is void of all life.  The interior of the store is a very dull grey color that is completely opposite of the store's name. In the back of the room, there is a cabinent that is filled with guns.  In the top corner of the room, there is a security camera that can that view your every move.  Just outside the camera's view is a door.  To the East is the Security Room, which is locked, and to the South is the Strip 2."
 
-Cafe is a room.  It is south of the Strip 2.  The description is "An empty cafe with rows of emtpy tables.  In the corner of the room is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key."
+Cafe is a room.  It is south of the Strip 2.  The description is "An empty cafe with rows of emtpy tables.  It seems like the Cafe was just about to close. In the corner of the room, there is a Old man drinking coffee and reading the newspaper.  On his table is a Silver Key."
 
 Wooden Table is scenery in Cafe.  The description is "This particular table is just like every other table in the room.  The table in the corner of the room has a Silver Key on it, but it seems to be the Old Man's."
 
-Cup is in Cafe. It is a container.  The description is "Black.  This is the coffee the Old Man is drinking."
+Cup is in Cafe. It is a container.  The description is "A cup that contains the Old Man's coffee.  You could put something into this cup…"
 
-Coffee is in Cup.  
+Coffee is in Cup.  The description of the Coffee is "Black"
 
 Newspaper is in Cafe. The description is "Honolulu Star Advertiser.  The top story: Surfer jailed for attacking another Surfer."
 
@@ -144,6 +147,10 @@ Instead of taking Newspaper:
 	If Sleeping Drug is in Cup:
 		move Newspaper to player.
 
+Instead of putting sleeping drug in cup:
+	say "You put the sleeping drug in the Old Man's coffee.  He takes a couple of sips and quickly falls asleep.";
+	move sleeping drug to cup.
+
 Instead of drinking Coffee:
 	If Sleeping Drug is not in Cup:
 		say "The Old Man looks at you taking a sip of his coffee and freaks out. 'Hey, Go get your own' He yells.";
@@ -204,7 +211,7 @@ Instead of talking Old man:
 	
 Instead of taking Silver key:
 	if Sleeping Drug is in cup:
-		say "You take the man's silver key while he is asleep.";
+		say "You take the Old Man's Silver Key while he's fast asleep.  That sleeping drug you put in his medicine is very potent.";
 		move Silver Key to the player;
 	if Sleeping Drug is not in cup:
 		say "The man stops you from stealing his property and quickly knocks you out in a swift punch.";
