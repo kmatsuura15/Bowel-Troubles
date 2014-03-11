@@ -201,7 +201,7 @@ Instead of putting Sleeping drug in Coffee:
 	say "You sleep the drug into the man's Coffee.  He quickly falls asleep…"
 
 Instead of talking instructor:
-	say "You need to use the restroom?  It's to the east."
+	say "'You need to use the restroom?  It's to the east.'"
 
 Instead of talking Security Guard:
 	say "As you approach the oversized man, he looks at you; and you soon realize it would be a bad idea to talk to him."
